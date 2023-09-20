@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/fb874cbd85.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Images/logo.png.jpg" class="logo" alt="aot scout logo" >
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+
+                <!--   
+
+                <img src="/Dark Mode/moon.png" id="icon"> --> 
+
+
+
+    
+
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <span>Augustin</span> <br>Aldrin KJ from Kerala</h1>
+            </div>
+        </div>
+    </div>
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="Images/user.png.jpg" alt="image">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>To accept challenging career in an organization where I can contribute my skills, knowledge and
+                    talent in an environment of open communication activity, vision and growth, which can harness
+                    my intellectual property and enable me to learn new technologies and methodologies in this
+                    changing era.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App Interface</li>
+                            <li><span>Web Developement</span><br>Web App Developement</li>
+                            <li><span>Software Testing</span><br>Testing Software</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Sep 2022 - Oct 2022</span><br>Image Annotation Service At AlignMinds Technologies </li>
+                            <li><span>Feb 2019 - Nov 2019</span><br>Customer Service Representative At Flipkart</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023</span><br>The Complete 2023 Web Development Bootcamp At Udemy</li>
+                            <li><span>2023</span><br>The Complete 2023 Software Testing Bootcamp At Udemy</li>
+                            <li><span>2020-2023</span><br>Master of Computer Application At KMM college of Arts & Science</li>
+                            <li><span>2016-2020</span><br>Bachelor of Computer Application At Siena College of Professional Studies</li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>  
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Designing</h2>
+                <p>Web designing is the process of planning, conceptualizing, 
+                and implementing the plan for designing a website in a way that is functional and offers a good user experience.
+                User experience is central to the web designing process.
+                Websites have an array of elements presented in ways that make them easy to navigate.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX Designing</h2>
+                <p>UI refers to the screens, buttons, toggles, icons, and other visual elements that you interact with when using a website,
+                    app, or electronic device. UX refers to the entire interaction you have with a product, 
+                    including how you feel about the interaction.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-soap"></i>
+                <h2>Software Testing</h2>
+                <p>Software testing is the process of evaluating and verifying that a software product or
+                    application does what it is supposed to do. 
+                    The benefits of testing include preventing bugs, reducing development costs and improving performance.</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Hobbies</h1>
+        <div class="hobby-list">
+            <div class="hobby">
+                <img src="Images/weightlift.jpg">
+                <div class="layer">
+                    <h3>Weight Lifting</h3>
+                    <p>Weightlifting or weight lifting generally refers to physical exercises and
+                     sports in which people lift weights, often in the form of dumbbells or barbells.</p>
+                     <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="hobby">
+                <img src="Images/cycling.jpg">
+                <div class="layer">
+                    <h3>Cycling</h3>
+                    <p>Cycling is mainly an aerobic activity, which means that your heart, 
+                        blood vessels and lungs all get a workout. 
+                        </p>
+                     <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="hobby">
+                <img src="Images/reading.jpg">
+                <div class="layer">
+                    <h3>Reading</h3>
+                    <p>
+                         Reading requires you to have the patience to build a cognitive perspective and 
+                         brain-stimulating activity to sharpen your mind. </p>
+                     <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>augustinaldrin74@gmail.com</p>
+                <p><i class="fa-sharp fa-solid fa-phone-volume"></i>+91 9746790215</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/aldrin.augustin.5/"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="https://instagram.com/__.aldrin_?igshid=NGExMmI2YTkyZg=="><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/augustin-aldrin-kj-617361259/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/aldrinkj"><i class="fa-brands fa-square-github"></i></a>
+                </div>
+                <a href="Resume/Augustin Aldrin KJ Resume.pdf" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="text" name="E-mail" placeholder="Your E-mail" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Augustin Aldrin KJ.</p>
+    </div>
+</div>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>  
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+<script>
+    const scriptURL = '<SCRIPT URL>'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent Successfully."
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
